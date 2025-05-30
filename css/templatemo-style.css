@@ -851,3 +851,21 @@ address {
 .panel p {
   padding: 5px 20px 30px;
 }
+.custom-login-link {
+  margin-top: 15px; /* jarak dari tombol pemesanan */
+}
+
+.custom-login-link .login-button {
+  display: inline-block;
+  padding: 8px 15px;
+  color: #333;
+  background-color: #eee;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.custom-login-link .login-button:hover {
+  background-color: #ddd;
+}
